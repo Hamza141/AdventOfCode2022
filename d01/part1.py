@@ -14,8 +14,6 @@ def readFile(filename):
     return lines
 
 
-d = dirname(dirname(abspath(__file__)))
-
 lines = readFile(join(dirname(abspath(__file__)), 'input.txt'))
 
 cur = 0
